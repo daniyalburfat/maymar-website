@@ -1,0 +1,113 @@
+           body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: burlywood ;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .logo img {
+            
+            margin-right: 60px;
+            max-width: 100%;
+            height: 175px;
+            
+        }
+
+        nav .nav-link {
+            color: white;
+            margin: 0 15px;
+            font-size: larger;
+        }
+
+        nav .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        
+
+        .services, .packages, .gallery , .videos , .registor {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+
+        h2 {
+            margin-bottom: 40px;
+            font-size: 28px;
+            color: #343a40;
+        }
+
+        .services h3, .packages h3 {
+            font-size: 22px;
+            color: #007bff;
+        }
+
+       
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+        }
+
+        footer h5 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        footer p {
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            nav .nav-link {
+                margin: 0 10px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+        table {
+            background: burlywood ;
+            margin-left: 30vh;
+        }
+        .information {
+            width: 10%;
+            height: 5px;
+            
+        }
+        .cover img {
+            width: 85%;
+            margin-top: 60px;
+            transition: transform 0.2s;
+            border-radius: 10px;
+            height: 500px;
+        }
+        .cover {
+            background: #fffbaf;
+            height: 650px;
+        }
+        .cover img:hover {
+            transform: scale(1.05);
+            transition: transform 0.2s;
+        }
+        
+        .gallery img {
+            border-radius: 10px;
+            transition: transform 0.2s;
+            width: 100%;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .admin img {
+            width: 50%;
+            margin-right: 100; 
+            bro
+        }
